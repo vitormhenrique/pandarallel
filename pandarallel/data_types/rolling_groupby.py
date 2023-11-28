@@ -1,4 +1,4 @@
-import multiprocessing
+import billiard as multiprocessing
 from typing import Any, Callable, Dict, Iterable, Iterator, List, Tuple
 
 import pandas as pd

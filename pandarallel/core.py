@@ -1,8 +1,8 @@
-import multiprocessing
+import billiard as multiprocessing
 import os
 import pickle
 from itertools import count
-from multiprocessing.managers import SyncManager
+from billiard.managers import SyncManager
 from pathlib import Path
 from tempfile import NamedTemporaryFile
 from typing import Any, Callable, Dict, Iterator, Optional, Tuple, Type, cast
